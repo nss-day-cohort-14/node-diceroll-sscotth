@@ -1,3 +1,5 @@
+'use strict'
+
 const { assert: { isFunction, strictEqual, oneOf } } = require('chai')
 
 const { toDiceNotation, roll } = require('../lib/dice')

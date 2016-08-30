@@ -1,3 +1,5 @@
+'use strict'
+
 const { assert: { isFunction, deepEqual } } = require('chai')
 
 const parseArgs = require('../lib/parse-args')
