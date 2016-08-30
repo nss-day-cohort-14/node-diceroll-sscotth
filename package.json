@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
-    "coverage": "istanbul cover _mocha"
+    "test": "mocha -R nyan",
+    "coverage": "istanbul cover _mocha -- -R nyan"
   },
   "repository": {
     "type": "git",
